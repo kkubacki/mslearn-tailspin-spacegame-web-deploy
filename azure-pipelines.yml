@@ -5,8 +5,6 @@ variables:
   buildConfiguration: 'Release'
   releaseBranchName: 'release'
 
-pool:
-  vmImage: 'ubuntu-latest'
 
 stages:
 - stage: 'Build'
