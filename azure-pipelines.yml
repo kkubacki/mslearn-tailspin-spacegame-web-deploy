@@ -5,6 +5,9 @@ variables:
   buildConfiguration: 'Release'
   releaseBranchName: 'release'
 
+pool:
+  name: default
+
 stages:
 - stage: 'Build'
   displayName: 'Build the web application'
